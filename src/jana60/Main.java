@@ -4,11 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Poligono figura1 = new TriangoloEquilatero();
-		figura1.calcolaPerimetro(10, 3);
-
-		Poligono figura2 = new Quadrato();
-		figura2.calcolaArea(40, 5);
+		Rettangolo rettangolo1 = new Rettangolo(5, 7.5);
+		System.out.println("Perimetro: " + rettangolo1.calcolaPerimetro());
+		System.out.println("Area: " + rettangolo1.calcolaArea());
 	}
 
 }

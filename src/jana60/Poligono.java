@@ -9,7 +9,7 @@ package jana60;
 
 public interface Poligono {
 
-	public void calcolaPerimetro(int lato, int angoli);
+	public double calcolaPerimetro();
 
-	public void calcolaArea(int perimetro, int apotema);
+	public double calcolaArea();
 }
